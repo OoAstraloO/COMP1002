@@ -7,13 +7,13 @@
 	    <title>Home | COMP1002 The HTML Pizza Company</title>
 	    <meta name="author" content="Charlie Sirois-Morin"/>
 	    <meta name="description" content="COMP1002 Assignment 1 - The HTML Pizza Company">
-	    <link rel="shortcut icon" href="images/pizzaicon.png" type="image/x-icon" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza"/>
+	    <link rel="shortcut icon" href="assignment-1/images/pizzaicon.png" type="image/x-icon" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza"/>
 	    <link rel="stylesheet" href="css/styles.css"/>
     </head>
 
     <body>
         <header>
-    		<img src="images/pizzaicon.png" alt="HTML Pizza Company Logo" height="45" width="45" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza" />
+    		<img src="assignment-1/images/pizzaicon.png" alt="HTML Pizza Company Logo" height="45" width="45" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza" />
 			<h1>Welcome to the HTML Pizza Company</h1>
 			<h2>The perfect place to order a pizza just the way you like it</h2>
         </header>
