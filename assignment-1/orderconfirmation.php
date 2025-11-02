@@ -18,7 +18,12 @@
 		<main>
 			<section>
 				<h3>Thank you for ordering</h3>
-
+                <?php
+// Capture the value of the emailAddress INPUT from the index.php page by defining a PHP variable called '$emailAddress' and setting the value to the email address as entered by the user in the FORM on index.php
+	$emailAddress = $_GET['emailAddress'];
+// Use the PHP function, echo() to create an HTML paragraph element that confirms the user's email address -->
+	echo('<p>Your email address, '.$emailAddress.' has been added to our list of subscribers.</p>');
+?>
 			</section>
 		</main>
 		<!-- Page-level footer -->
