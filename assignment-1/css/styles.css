@@ -3,7 +3,8 @@
 body 
     {
 	font-family: Tahoma, Verdana, sans-serif;
-	color: #555;
+	color: #000;
+	background-color: #ebebeb; 
 	margin: 0 auto;
 	min-width: 768px;
 	max-width: 1024px;
