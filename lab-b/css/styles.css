@@ -11,7 +11,7 @@ body
 /* Arrange the SECTION and the ASIDE elements side-by-side in columns */
 main {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 /* Make the SECTION column a bit wider than the ASIDE column */
 main section {

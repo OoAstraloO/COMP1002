@@ -7,20 +7,34 @@
 	<title>Home | COMP1002 The HTML Pizza Company</title>
 	<meta name="author" content="Charlie Sirois-Morin"/>
 	<meta name="description" content="COMP1002 Assignment 1 - The HTML Pizza Company">
-	<link rel="shortcut icon" href="images/pizzaicon.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="images/pizzaicon.png" type="image/x-icon" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza"/>
 	<link rel="stylesheet" href="css/styles.css"/>
 </head>
 
 <body>
     <header>
-    		<img src="images/pizzaicon.png" alt="Pizza Company Logo" height="45" width="45" />
-			<h1>The HTML Pizza Company</h1>
-			<h2></h2>
+    		<img src="images/pizzaicon.png" alt="HTML Pizza Company Logo" height="45" width="45" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza" />
+			<h1>Welcome to the HTML Pizza Company</h1>
+			<h2>The perfect place to order a pizza just the way you like it</h2>
     </header>
     <main>
         <h2> Build Your Pizza</h2>
-        <p>Please fill out the form below to create your pizza order</p>
+        <p>Please fill out the form below to create your pizza order</ps>
 
-        <form action="">
+        <form action="orderconfirmation.php" method="post">
+            <fieldset>
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" required>
+                
+                <br>
+
+                <label for="emailAddress">Email:</label>
+                <input type="email" name="emailAddress" id="emailAddress" required>
+
+                <br>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" required>        
+            </fieldset>
     </main>
 </body>

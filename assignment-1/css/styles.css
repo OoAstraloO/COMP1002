@@ -8,16 +8,17 @@ body
 	min-width: 768px;
 	max-width: 1024px;
     }
+
 /* Arrange the SECTION and the ASIDE elements side-by-side in columns */
 main 
     {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
     }
 /* Make the SECTION column a bit wider than the ASIDE column */
 main section 
     {
-	width: 60%;
+	width: 100%;
     }
 main aside 
     {
