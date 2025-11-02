@@ -21,7 +21,7 @@
             <h2> Build Your Pizza</h2>
             <p>Please fill out the form below to create your pizza order</ps>
 
-            <form action="orderconfirmation.php" method="post">
+            <form action="assignment-1/orderconfirmation.php" method="post">
                 <fieldset>
                     <legend><h3>Pizza Order</h3></legend>
 
