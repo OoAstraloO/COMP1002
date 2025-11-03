@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <!-- Page-level head content -->
     <head>
         <meta charset="utf-8" />
 	    <title>Home | COMP1002 The HTML Pizza Company</title>
 	    <meta name="author" content="Charlie Sirois-Morin"/>
 	    <meta name="description" content="COMP1002 Assignment 1 - The HTML Pizza Company">
 	    <link rel="shortcut icon" href="assignment-1/images/pizzaicon.png" type="image/x-icon" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza"/>
-	    <link rel="stylesheet" href="css/styles.css"/>
+	    <link rel="stylesheet" href="assignment-1/css/styles.css"/>
     </head>
     <!-- Page-level body content -->
     <body>
@@ -23,35 +22,37 @@
         <!-- Pizza Customization & Ordering Form -->
             <form action="assignment-1/orderconfirmation.php" method="post">
                 <fieldset>
+                    <!-- Pizza Order Details -->
                     <legend><h3>Pizza Order</h3></legend>
 
+                    <!-- Contact Information -->
                     <strong style="color:#b43535">Contact Information</strong>
 
                     <br>
-
-                    <label for="name" style="color:#afaf3b">Full Name:</label>
+                    <!-- Name, Email, Phone Number inputs -->
+                    <label for="name" style="color:#afaf3b"><strong>Full Name:</strong></label>
                     <input type="text" name="name" id="name" required>
                 
                     <br>
 
-                    <label for="emailAddress" style="color:#afaf3b">Email:</label>
+                    <label for="emailAddress" style="color:#afaf3b"><strong>Email:</strong></label>
                     <input type="email" name="emailAddress" id="emailAddress" required>
                     <br>
 
-                    <label for="phoneNumber" style="color:#afaf3b">Phone Number:</label>
+                    <label for="phoneNumber" style="color:#afaf3b"><strong>Phone Number:</strong></label>
                     <input type="tel" name="phoneNumber" id="phoneNumber" required>
                 
                     <br>
                     <br>
-
+                    <!-- Pizza Details -->
                     <strong style="color:#b43535">Pizza Details</strong>
                     <br>
-                    <label for="quantity" style="color:#afaf3b">Number of Pizzas:</label>
+                    <label for="quantity" style="color:#afaf3b"><strong>Number of Pizzas:</strong></label>
                     <input type="number" name="quantity" id="quantity" min="1" max="10" value="1" required>
 
                     <br>
-
-                    <label for="size" style="color:#afaf3b">Size:</label>
+                    <!-- Drop-down list for pizza size -->
+                    <label for="size" style="color:#afaf3b"><strong>Size:</strong></label>
                     <select name="size" id="size">
                         <optgroup label="Size">
                             <option value="small">Small (6 Slices)</option>
@@ -62,16 +63,16 @@
                     </select>
 
                     <br>
-
-                    <label for="shape" style="color: #afaf3b;">Shape:</label>
+                    <!-- Pizza shape options -->
+                    <label for="shape" style="color: #afaf3b;"><strong>Shape:</strong></label>
                     <input type="radio" name="shape" id="round" value="round" required>
                     <label for="round">Round</label>
                     <input type="radio" name="shape" id="square" value="square">
                     <label for="square">Square</label>
 
                     <br>
-
-                    <label for="crustType" style="color: #afaf3b;">Crust Type:</label>
+                    <!-- Pizza crust options -->
+                    <label for="crustType" style="color: #afaf3b;"><strong>Crust Type:</strong></label>
                     <input type="radio" name="crust" id="original" value="original" required>
                     <label for="original">Original Crust</label>
                     <input type="radio" name="crust" id="thin" value="thin">
@@ -83,9 +84,10 @@
 
                     <br>
                     <br>
-
+                    <!-- Pizza toppings options, seperated into meats, veggies, and others -->
                     <label style="color:#b43535"><strong>Toppings (Select all you would like):</strong></label>
                     <br>
+                    <!-- Meat toppings options -->
                     <strong style="color:#afaf3b">Meats:</strong>
                     <br>
                     <input type="checkbox" name="toppings[]" id="pepperoni" value="pepperoni">
@@ -103,6 +105,7 @@
                     <input type="checkbox" name="toppings[]" id="beefCrumble" value="beefCrumble">
                     <label for="beefCrumble">Beef Crumble</label>
                     <br>
+                    <!-- Veggie toppings options -->
                     <strong style="color:#afaf3b">Veggies:</strong>
                     <br>
                     <input type="checkbox" name="toppings[]" id="onion" value="onion">
@@ -117,15 +120,22 @@
                     <input type="checkbox" name="toppings[]" id="greenPepper" value="greenPepper">
                     <label for="greenPepper">Green Pepper</label>
                     <br>
+                    <!-- Additional toppings options -->
+                    <strong style="color:#afaf3b">Other:</strong>
+                    <br>
                     <input type="checkbox" name="toppings[]" id="extraCheese" value="extraCheese">
                     <label for="extraCheese">Extra Cheese</label>
-
                     <br>
-                    <label for="specialInstructions" style="color:#afaf3b">Special Instructions:</label>
+                    <input type="checkbox" name="toppings[]" id="extraSauce" value="extraSauce">
+                    <label for="extraSauce">Extra Sauce</label>
+                    <br>
+                    <!-- Special instructions -->
+                    <label for="specialInstructions" style="color:#afaf3b"><strong>Special Instructions:</strong></label>
                     <br>
                     <textarea type="text" name="specialInstructions" id="specialInstructions" rows="4" cols="50"></textarea>
                     <br>
-                    <label for="orderType" style="color:#afaf3b">Order Type:</label>
+                    <!-- Order type options -->
+                    <label for="orderType" style="color:#afaf3b"><strong>Order Type:</strong></label>
                     <select>
                         <optgroup label="Dining Options">
                             <option value="carryout">Carryout</option>
@@ -133,6 +143,7 @@
                         </optgroup>
                     </select>
                     <br>
+                    <!-- Form buttons -->
                     <input type="submit" value="Place Order">
                     <input type="reset" value="Reset">
                 </fieldset>

@@ -23,7 +23,7 @@
 					$emailAddress = $_POST['emailAddress'];
 					$name = $_POST['name'];
 					// Use the PHP function, echo() to create an HTML paragraph element that confirms the user's email address -->
-					echo('<p>Thank you for your order '.$name.'! A confirmation along with order details has been sent to your email address, '.$emailAddress.'. Enjoy!</p>');
+					echo('<p>Thank you for your order '.$name.'! A confirmation along with order details has been sent to your email address: '.$emailAddress.'. Enjoy!</p>');
 				?>
 			</section>
 		</main>

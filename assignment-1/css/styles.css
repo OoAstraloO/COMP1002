@@ -4,7 +4,7 @@ body
     {
 	font-family: Tahoma, Verdana, sans-serif;
 	color: #000;
-	background-color: #ebebeb; 
+	background-color: #888888; 
 	margin: 0 auto;
 	min-width: 768px;
 	max-width: 1024px;
@@ -15,13 +15,4 @@ main
     {
 	display: flex;
 	flex-direction: column;
-    }
-/* Make the SECTION column a bit wider than the ASIDE column */
-main section 
-    {
-	width: 100%;
-    }
-main aside 
-    {
-	width: 40%;
     }
