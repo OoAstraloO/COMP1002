@@ -19,10 +19,11 @@
 			<section>
 				<h3>Thank you for ordering</h3>
                 <?php
-				// Captures the value of emailAddress input from index.php and sets the value to the email address as entered by the user in the form on index.php
-				$emailAddress = $_POST['emailAddress'];
-				// Use the PHP function, echo() to create an HTML paragraph element that confirms the user's email address -->
-				echo('<p>Order confirmation has been sent to your email address, ' .$emailAddress. '. Thank you for your order!</p>');
+					// Captures the values from index.php inputs and sets the value to the email address as entered by the user in the form on index.php
+					$emailAddress = $_POST['emailAddress'];
+					$name = $_POST['name'];
+					// Use the PHP function, echo() to create an HTML paragraph element that confirms the user's email address -->
+					echo('<p>Thank you for your order '.$name.'! A confirmation along with order details has been sent to your email address, '.$emailAddress.'. Enjoy!</p>');
 				?>
 			</section>
 		</main>

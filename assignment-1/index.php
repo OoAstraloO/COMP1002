@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
+    <!-- Page-level head content -->
     <head>
         <meta charset="utf-8" />
 	    <title>Home | COMP1002 The HTML Pizza Company</title>
@@ -10,17 +10,17 @@
 	    <link rel="shortcut icon" href="assignment-1/images/pizzaicon.png" type="image/x-icon" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza"/>
 	    <link rel="stylesheet" href="css/styles.css"/>
     </head>
-
+    <!-- Page-level body content -->
     <body>
         <header>
-    		<img src="assignment-1/images/pizzaicon.png" alt="HTML Pizza Company Logo" height="75" width="75" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza" />
-			<h1 style="color:#b43535">Welcome to the HTML Pizza Company</h1>
+			<h1 style="color:#b43535"><img src="assignment-1/images/pizzaicon.png" alt="HTML Pizza Company Logo" height="75" width="75" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza" />Welcome to the HTML Pizza Company</h1>
 			<h3 style="color:#afaf3b">The perfect place to order a pizza just the way you like it</h3>
         </header>
+        <!-- Page-level main content -->
         <main>
             <h1 style="color:#b43535"> Build Your Pizza</h1>
             <p><em style="color:#afaf3b">Please fill out the form below to create your pizza order:</em></p>
-
+        <!-- Pizza Customization & Ordering Form -->
             <form action="assignment-1/orderconfirmation.php" method="post">
                 <fieldset>
                     <legend><h3>Pizza Order</h3></legend>
@@ -137,6 +137,7 @@
                     <input type="reset" value="Reset">
                 </fieldset>
         </main>
+        <!-- Page-level main content -->
         <footer>
 		    <p><small style="color:#b43535">© HTML Pizza Company Inc.</small></p>
 	    </footer>
