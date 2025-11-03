@@ -13,7 +13,7 @@
     <body>
         <header>
 			<h1 style="color:#b43535"><img src="assignment-1/images/pizzaicon.png" alt="HTML Pizza Company Logo" height="75" width="75" cite="https://freesvg.org/lunik-pizza-slice-trozo-de-pizza" />Welcome to the HTML Pizza Company</h1>
-			<h3 style="color:#afaf3b">The perfect place to order a pizza just the way you like it</h3>
+			<h3 style="color:#afaf3b">The perfect place to order a pizza just the way you like it!</h3>
         </header>
         <!-- Page-level main content -->
         <main>
