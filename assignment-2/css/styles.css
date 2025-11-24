@@ -37,7 +37,10 @@ main
 }
 footer
 {
-
+    font-family: "Source Sans 3", sans-serif; 
+    position: relative;
+    top: 500px;
+    text-align: center;
 }
 
 /* For title */
@@ -66,9 +69,12 @@ h3
 
 p
 {
+    font-family: "Julius Sans One", sans-serif;
     position:relative;
     bottom: 10em;
+    left: 10em;
     text-align: justify;
+    font-size: 20px;
 }
 
 ul li
@@ -99,7 +105,13 @@ img
     left:-10px;
     bottom:-1em;
 }
-
+aside
+{
+    font-size: 100em;
+    color:white;
+    position:relative;
+    left: 4em;
+}
 /* id styling*/
 #fancy
 {
@@ -132,7 +144,7 @@ img
 #images li
 {
     position:relative;
-    top: -4em;
+    top: -5em;
     left: -1em;
 }
 #subtitle li
@@ -140,9 +152,24 @@ img
     color: white;
     font-family: "Source Sans 3", sans-serif;
     position:relative;
-    top: 2em;
+    top: -1em;
     left: -1em;
     word-spacing: 6px;
     font-size: 22px;
     line-height: 0.5;
+}
+#right 
+{
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position:relative;
+    left: -176px;
+}
+#copyrights
+{
+    position:relative;
+    top: -5em;
+    left: -1em;
 }
