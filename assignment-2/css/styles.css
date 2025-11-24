@@ -18,27 +18,59 @@ div#container
 
 body
 {
+    font-family: "Source Sans 3", sans-serif; 
     color:white;
-    font-family: '', Courier, monospace, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
-
 header, section, footer 
 {
     padding: 2em 3em;
 }
 
-/* For title */
-h1
+main
 {
-    font-family: "Permenant Marker", sans-serif; 
-    color: white;
+    font-family: "Source Sans 3", sans-serif; 
+    position: relative;
+    top: 50em;
+    text-align: center;
 }
-h2
+footer
 {
 
 }
+
+/* For title */
+h1
+{
+    font-family: "Permanent Marker", "Knewave", Courier, sans-serif;
+    color: white;
+    font-size: 250px;
+}
+
+h2
+{
+    font-family: "Source Sans 3", sans-serif;
+    position:relative;
+    top: -6em;
+    word-spacing: 6px;
+}
+
+h3
+{
+    font-family: "Source Sans 3", sans-serif;
+    position:relative;
+    top: -6em;
+    word-spacing: 6px;
+}
+
+p
+{
+    position:relative;
+    bottom: 10em;
+    text-align: justify;
+}
+
 ul li
 {
     font-family: "Source Sans 3", sans-serif;
@@ -47,44 +79,70 @@ ul li
     color: #226565;
     text-align: center;
     position: relative;
-    left: 3em;
-    font-size: 30px;
+    top:-1em;
+    left: 1em;
+    font-size: 40px;
 }
+
 ul li ul
 {
     display:grid;
 }
+
 small
 {
     font-size: 50%;
 }
+img
+{
+    position:relative;
+    left:-10px;
+    bottom:-1em;
+}
+
 /* id styling*/
 #fancy
 {
     font-family: "Courgette", serif;
     font-style: italic;
 }
+
 #caps-lock
 {
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 2px;
 }
+
 #small
 {
     font-size: 75%
 }
+
 #single li
 {
+    font-family: "Source Sans 3", sans-serif;
     text-align: center;
     display:grid;
     position:relative;
-    top:-1em;
+    top: -3em;
     left: -1em;
-    font-size: 50px
+    font-size: 50px;
 }
-#footer
+#images li
 {
     position:relative;
-    bottom:1;
-    top: 100;
+    top: -4em;
+    left: -1em;
+}
+#subtitle li
+{
+    color: white;
+    font-family: "Source Sans 3", sans-serif;
+    position:relative;
+    top: 2em;
+    left: -1em;
+    word-spacing: 6px;
+    font-size: 22px;
+    line-height: 0.5;
 }
