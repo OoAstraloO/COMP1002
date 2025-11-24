@@ -4,11 +4,11 @@ html
 {
     background-color: black;
 }
-
+/*Poster Container with background image*/
 div#container
 {
    /*Image used for background was edited using Google Gemini to remove all text, Original from https://www.movieposters.com/products/flow-mpw-149218 */
-   border: white, 10px, solid;
+   border: 10x solid white;
    background-image: url("../images/blank-flow-poster.jpg");
    background-size: contain;
    background-repeat: no-repeat;
@@ -43,14 +43,14 @@ footer
     text-align: center;
 }
 
-/* For title */
+/*Title Text*/
 h1
 {
     font-family: "Permanent Marker", "Knewave", Courier, sans-serif;
     color: white;
     font-size: 250px;
 }
-
+/*Subtitle Text*/
 h2
 {
     font-family: "Source Sans 3", sans-serif;
@@ -58,7 +58,7 @@ h2
     top: -6em;
     word-spacing: 6px;
 }
-
+/*Awards Entry Text*/
 h3
 {
     font-family: "Source Sans 3", sans-serif;
@@ -66,7 +66,7 @@ h3
     top: -6em;
     word-spacing: 6px;
 }
-
+/*Credits Text*/
 p
 {
     font-family: "Julius Sans One", sans-serif;
@@ -76,7 +76,7 @@ p
     text-align: justify;
     font-size: 20px;
 }
-
+/*Quote Text*/
 ul li
 {
     font-family: "Source Sans 3", sans-serif;
@@ -89,12 +89,10 @@ ul li
     left: 1em;
     font-size: 40px;
 }
-
 ul li ul
 {
     display:grid;
 }
-
 small
 {
     font-size: 50%;
@@ -105,32 +103,36 @@ img
     left:-10px;
     bottom:-1em;
 }
-aside
+/*Description Text*/
+blockquote
 {
-    font-size: 100em;
+    font-size: 100px;
     color:white;
-    position:relative;
-    left: 4em;
+    right: 70em;
+    top:15em;
+
 }
 /* id styling*/
+
+/*For text that needs to be italics*/
 #fancy
 {
     font-family: "Courgette", serif;
     font-style: italic;
 }
-
+/*For sections that require all uppercase and bold text*/
 #caps-lock
 {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
 }
-
+/*For smaller text size in specific sections*/
 #small
 {
     font-size: 75%
 }
-
+/*For single centered quotation*/
 #single li
 {
     font-family: "Source Sans 3", sans-serif;
@@ -158,6 +160,7 @@ aside
     font-size: 22px;
     line-height: 0.5;
 }
+/*For last credit line to be right aligned*/
 #right 
 {
     text-align: right;
@@ -167,9 +170,17 @@ aside
     position:relative;
     left: -176px;
 }
+/*Position adjustments for footer image*/
 #copyrights
 {
     position:relative;
     top: -5em;
     left: -1em;
+}
+/*For Movie description text*/
+#description
+{
+    color: #226565;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 50px;
 }
