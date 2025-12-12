@@ -39,3 +39,36 @@
                     
                 </section>
             </header>
+            <main>
+                <p><em>Please fill out the form below to let us know how we can improve:</em></p>
+        <!-- Feedback Form -->
+            <form action="feedbackcomplete.html" method="get">
+                <fieldset>
+                    <!-- Pizza Order Details -->
+                    <legend><h3>Feedback</h3></legend>
+
+                    <!-- Contact Information -->
+                    <strong>Information</strong>
+
+                    <br>
+                    <!-- Name & Product Info Inputs -->
+                    <label for="name"><strong>Name:</strong></label>
+                    <input type="text" name="name" id="name" required>
+                
+                    <br>
+
+                    <label for="productName"><strong>Product Name:</strong></label>
+                    <input type="product" name="productName" id="productName" required>
+                    <br>
+                    <br>
+                    <!-- Feedback section -->
+                    <label for="feedback"><strong>Feedback</strong></label>
+                    <br>
+                    <textarea type="text" name="specialInstructions" id="specialInstructions" rows="4" cols="50" required></textarea>
+                    <br>
+                    <br>
+                    <!-- Form buttons -->
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </main>
