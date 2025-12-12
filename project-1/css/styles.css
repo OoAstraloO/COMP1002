@@ -4,27 +4,33 @@ html
 {
     background-color: lightgray;
 }
+body{
+    transform-origin: top left;
+    margin: 3vw;
+    padding: 2vw;
+}
 /*Website Container*/
-div#page
+div#pages
 {
    /*Image used for background was edited using Google Gemini to remove all text, Original from https://www.movieposters.com/products/flow-mpw-149218 */
 
    background-color: gray;
    background-size: contain;
    background-repeat: no-repeat;
-   width: 1600px;
-   height: 2406px;
+   width: 100%;
+   max-width: 1920px;
 }
 header
 {
-    background-color: black;
-
+    background-color: white;
 }
 h1 
 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	color: #333;
 	background-color: transparent;
 	font-weight: normal;
+    text-align: center;
 }
 ul li
 {
@@ -34,8 +40,12 @@ ul li
     color: #226565;
     text-align: center;
     position: relative;
-    font-size: 25px;
+    font-size: clamp(1rem, 3vw, 2rem);
     margin: 10px;
+}
+ul
+{
+    text-align: center;
 }
 #product
 {
@@ -48,6 +58,9 @@ ul li
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     background-color: white;
+}
+#logo{
+    background-color:#3778b0;
 }
 a
 {
@@ -63,4 +76,51 @@ a:active
 {
     color: lightgrey;
     text-decoration: underline;
+}
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+.container
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+@media (min-width: 360px) 
+{
+    .layout 
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .section
+    {
+        padding: 10px;
+    }
+}
+@media (min-width: 600px)
+{
+    .layout
+    {
+        gap: 20px;
+    }
+    .section{
+        padding: 20px;
+    }
+}
+@media (min-width: 1024px)
+{
+    .layout
+    {
+        gap: 40px;
+    }
+    .section{
+        padding: 40px;
+    }
 }
