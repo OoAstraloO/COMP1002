@@ -5,7 +5,7 @@ html
     background-color: lightgray;
 }
 /*Website Container*/
-div#navigation
+div#page
 {
    /*Image used for background was edited using Google Gemini to remove all text, Original from https://www.movieposters.com/products/flow-mpw-149218 */
 
@@ -34,7 +34,33 @@ ul li
     color: #226565;
     text-align: center;
     position: relative;
-    top:-1em;
-    left: 1em;
-    font-size: 40px;
+    font-size: 25px;
+    margin: 10px;
+}
+#product
+{
+    position:relative;
+    top: 50px;
+    left: 100px
+}
+#navigation
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+a
+{
+    text-decoration: none;
+    color: #3778b0
+}
+a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+a:active
+{
+    color: lightgrey;
+    text-decoration: underline;
 }
