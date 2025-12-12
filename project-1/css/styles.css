@@ -2,13 +2,13 @@
 
 html 
 {
-    background-color: black;
+    background-color: lightgray;
 }
 /*Website Container*/
-div#page
+div#navigation
 {
    /*Image used for background was edited using Google Gemini to remove all text, Original from https://www.movieposters.com/products/flow-mpw-149218 */
-   border: 10x solid white;
+
    background-color: gray;
    background-size: contain;
    background-repeat: no-repeat;
@@ -25,4 +25,16 @@ h1
 	color: #333;
 	background-color: transparent;
 	font-weight: normal;
+}
+ul li
+{
+    font-family: "Source Sans 3", sans-serif;
+    list-style-type: none;
+    display: inline-block;
+    color: #226565;
+    text-align: center;
+    position: relative;
+    top:-1em;
+    left: 1em;
+    font-size: 40px;
 }
