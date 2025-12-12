@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+html 
+{
+    background-color: black;
+}
+/*Website Container*/
+div#page
+{
+   /*Image used for background was edited using Google Gemini to remove all text, Original from https://www.movieposters.com/products/flow-mpw-149218 */
+   border: 10x solid white;
+   background-color: gray;
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 1600px;
+   height: 2406px;
+}
+header
+{
+    background-color: black;
+
+}
+h1 
+{
+	color: #333;
+	background-color: transparent;
+	font-weight: normal;
+}
