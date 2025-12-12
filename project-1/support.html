@@ -14,27 +14,67 @@
         <div id="pages">
             <!--Top of Page, contains quotes and festival info-->
             <header>
-            <ul id="navigation">
-				<li>
-					<a href="index.html" title="Home">Home</a>
-				</li>
-				<li>
-                    <a href="walkman.html" title="Walkman TPS-L2"> About the Product</a>
-                </li>
-                <li>
-					<a href="aboutus.html" title="aboutus">About Us</a>
-				</li>
-                <li>
-					<a href="feedback.html" title="Feedback">Feedback</a>
-				</li>
-                <li>
-					<a href="support.html" title="Support">Support</a>
-				</li>
-			</ul>
+                <ul id="navigation">
+                    <li>
+                        <a href="index.html" title="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="walkman.html" title="Walkman TPS-L2"> About the Product</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html" title="aboutus">About Us</a>
+                    </li>
+                    <li>
+                        <a href="feedback.html" title="Feedback">Feedback</a>
+                    </li>
+                    <li>
+                        <a href="support.html" title="Support">Support</a>
+                    </li>
+                </ul>
+            </header>
+             <main>
                 <section >
-                     <h1>Sony</h1>
+                    <p><em>To recieve support, please fill out the form below and a specialist will get back to you within 2-4 business days.</em></h1>
                        
                 </section>
+                <p><em></em></p>
+                <!-- Support Form -->
+                <form action="supportcomplete.html" method="get">
+                    <fieldset>
+                        <!-- Product Feedback Details -->
+                        <legend><h3>Support</h3></legend>
+
+                        <!-- Contact Information -->
+                        <strong>Information:</strong>
+
+                        <br>
+                        <!-- Name & Product Info Inputs -->
+                        <label for="name"><strong>Name:</strong></label>
+                        <input type="text" name="name" id="name" required>
+                    
+                        <br>
+
+                        <label for="emailAddress"><strong>Email:</strong></label>
+                        <input type="email" name="emailAddress" id="emailAddress" required>
+
+                        <br>
+
+                        <label for="productName"><strong>Product Name:</strong></label>
+                        <input type="text" name="productName" id="productName" required>
+                        <br>
+                        <br>
+                        <!-- Feedback section -->
+                        <label for="feedback"><strong>Support Required & Questions:</strong></label>
+                        <br>
+                        <textarea type="text" name="specialInstructions" id="specialInstructions" rows="4" cols="50" required></textarea>
+                        <br>
+                        <br>
+                        <!-- Form buttons -->
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </fieldset>
+                    <p><em>Alternatively, contact us at (416) 499-1414 during 8:00 - 16:00 EST.</em></p>
+            </main>
                 <!--Section for Centered Quote under previous quotes-->
                 <section>
                     
