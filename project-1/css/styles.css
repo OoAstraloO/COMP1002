@@ -75,46 +75,6 @@ th, td
 {
     border: 3px solid #3778b0;
 }
-#product
-{
-    position:relative;
-    top: 50px;
-    left: 100px
-}
-#navigation
-{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    background-color: white;
-}
-#logo{
-    background-color:#3778b0;
-}
-#walkmanAbstract
-{
-    position: relative;
-    left: 0px;
-    right: 75%;
-}
-#walkmanInfo
-{
-    margin: 10px
-}
-a
-{
-    text-decoration: none;
-    color: #3778b0
-}
-a:hover
-{
-    color: black;
-    text-decoration: underline;
-}
-a:active
-{
-    color: lightgrey;
-    text-decoration: underline;
-}
 img
 {
     display: block;
@@ -149,6 +109,50 @@ input[type="reset"]
     color: white;
     border: none;
     font-size: 16px;
+}
+#product
+{
+    position:relative;
+    top: 50px;
+    left: 100px
+}
+#navigation
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+#logo{
+    background-color:#3778b0;
+}
+#walkmanAbstract
+{
+    position: relative;
+    left: 0px;
+    right: 75%;
+}
+#walkmanInfo
+{
+    margin: 10px
+}
+#aboutus
+{
+    margin: 15px;
+}
+a
+{
+    text-decoration: none;
+    color: #3778b0
+}
+a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+a:active
+{
+    color: lightgrey;
+    text-decoration: underline;
 }
 .container
 {
