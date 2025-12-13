@@ -122,6 +122,7 @@ input[type="reset"]
 }
 #logo{
     background-color:#3778b0;
+    size: auto;
 }
 #walkmanAbstract
 {
